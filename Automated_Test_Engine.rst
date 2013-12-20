@@ -62,7 +62,7 @@ execute ::
     bundle exec rake db:schema:load
 
 You may also want to re-seed the database and perform unit and function tests on
-this branch too.
+this branch too. ::
 
     bundle exec rake db:seed
     bundle exec rake db:test:prepare
@@ -155,16 +155,16 @@ A test script can consist of any number of individual tests. Each of these tests
 can be a single unit test, or a collection of unit tests.
 
 Each test must contain the following information in the results (REQUIRED):
-    * The test name
-    * The numerical mark that the student earned for the test
-    * The total number of marks earned for the test
+* The test name
+* The numerical mark that the student earned for the test
+* The total number of marks earned for the test
 
 Additionally, each test can contain the following additional information
 (OPTIONAL):
-    * Test description
-    * Test feedback. This field can be used by the instructor to provide any
-      comments/feedback to the student (why the test failed, exception stack
-      trace etc).
+* Test description
+* Test feedback. This field can be used by the instructor to provide any 
+comments/feedback to the student (why the test failed, exception stack trace, 
+etc).
 
 The information that is returned must use the following XML formatting. If the
 formatting is not followed, then the parser will be unable to parse the results.
