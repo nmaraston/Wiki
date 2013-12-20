@@ -202,6 +202,22 @@ languages that must be compiled.
 Sample test scripts that can be used as a template are located in
 MARKUS-ROOT/automated-tests-files/test_runner/sample_data
 
+Test Supports and Helpers
+--------------------------------------------------------------------------------
+In addition to test scripts, there are also test supports and test helpers. 
+
+Test supports are files that will be available to all tests run on the 
+assignment. They are placed into the directory where each script is run. Test 
+supports are good for code that is shared between tests (i.e. custom 
+libraries), or common resources (files used for testing input/reading in
+multiple tests).
+
+Test helpers are similar to supports, but are instead associated with a 
+specific test. They are only placed into the folder of the test script that
+they have been added to. While the test runner doesn't support test scripts 
+written in compiled languages, you can use an executable test script to compile
+test helpers as a work-around.
+
 Starting Redis-Server and Resque Workers
 --------------------------------------------------------------------------------
 In development, if you want to start MarkUs, you just need to start the rails
