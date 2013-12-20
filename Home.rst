@@ -225,6 +225,7 @@ Everything a Developer Needs to Know about Ruby, Ruby on Rails and MarkUs
   * [[The FilterTable Class | FilterTable]]
   * [[Simple Grade Entry | SimpleGradeEntry]]
   * [[Notes System | NotesSystem]]
+  * [[Automated Testing Engine | AutomatedTestEngine]]
 
 * **Feedback Notes**
 
