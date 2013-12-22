@@ -158,7 +158,7 @@ Each test must contain the following information in the results (REQUIRED):
 
 * The test name
 * The numerical mark that the student earned for the test
-* The total number of marks earned for the test
+* The total number of marks it is possible to earn for the test
 
 Additionally, each test can contain the following additional information
 (OPTIONAL):
@@ -187,7 +187,7 @@ As stated, the following information is optional, and can be omitted entirely.
 The test description must have the format <description>s</description> where s
 is a string.
 
-The test feedback must have the format <description>s</description> where s is a
+The test feedback must have the format <feedback>s</feedback> where s is a
 string.
 
 Once all of the tests have finished running, all <test>...</test> strings must
